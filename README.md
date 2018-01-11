@@ -8,7 +8,7 @@ Quickstart
 
  1. One-off: prepare the Docker container:
 
-         `docker build -t firefox-disposable .`
+        docker build -t firefox-disposable .
 
  2. Run the nested X server
 
