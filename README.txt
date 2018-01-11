@@ -1,8 +1,10 @@
-# Firefox-Docker
+Firefox-Docker
+==============
 
 Run a disposable Firefox instance in a Docker container.
 
-## Quickstart:
+Quickstart
+----------
 
  1. One-off: prepare the Docker container:
 
@@ -18,7 +20,8 @@ Run a disposable Firefox instance in a Docker container.
 
 The browser should appear in the nested X server.
 
-## More details
+More details
+------------
 
 `Xephyr` has many options. For example:
 
@@ -30,7 +33,8 @@ It also helps to run a proper window manager in the nested X server, otherwise w
 
 ...then launch the docker container.
 
-## FAQ
+FAQ
+---
 
  * Why a separate X server?
 
