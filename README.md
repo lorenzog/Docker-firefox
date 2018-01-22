@@ -40,10 +40,15 @@ FAQ
 
    Because every X application can read the keyboard. At any time.
 
- * But a malicious application could also check /tmp/.X11-unix and attach itself to it.
+ * But a malicious application could also check /tmp/.X11-unix/:1 and
+   attach itself to it.
 
-   That doesn't seem to be working on my set-up, unless I run `xhost +` on the host X server
+   That doesn't seem to be working on my set-up, unless I run `xhost +`
+   on the host X server. Also if you're looking for a better set-up, try
+   Qubes OS. It's awesome.
 
  * What about copy-paste?
 
-   You need to use `xclip` or something similar to synchronise clipboards.
+   You need to use `xclip` or something similar to synchronise
+   clipboards. See the `clipto.sh` and `clipfrom.sh` scripts for
+   inspiration.
